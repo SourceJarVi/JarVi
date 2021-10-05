@@ -11023,7 +11023,7 @@ Text = [[
 *✫م9 ◂ اوامر مطور الاساسي* 
 *✫م10 ◂ اوامر الاعضاء*
 ٴ*•━━━━━━ Ja ━━━━━━━•*ٴ
-[𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔 ](t.me/XUaXU) 
+[𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠](t.me/XUaXU) 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -11340,7 +11340,7 @@ infovid = "⌯⁞ اختر صيغه التنزيل الان.\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'Mp4', callback_data=id_from_user..":DownloadVid:"..msgidrp..":"..id_from_vid..":Mp4"},{text = 'mp3', callback_data=id_from_user..":DownloadVid:"..msgidrp..":"..id_from_vid..":mp3"},{text = 'ogg', callback_data=id_from_user..":DownloadVid:"..msgidrp..":"..id_from_vid..":ogg"}},
-{{text = 'sᴏᴜʀᴄʀ ʀᴀᴠᴇɴ',url='http://t.me/JarViFiles'}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠',url='https://t.me/UQXUQ'}},
 }
 https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(infovid)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 InfoVid = https.request('https://black-source.tk/Api/BotYoutube.php?Id='..URL.escape(id_from_vid))
@@ -11413,7 +11413,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11471,7 +11471,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11508,7 +11508,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11555,7 +11555,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11604,7 +11604,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11672,7 +11672,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11729,7 +11729,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11762,7 +11762,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11848,7 +11848,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-𝘙𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11895,7 +11895,7 @@ keyboard.inline_keyboard = {
 {{text = '⓺', callback_data="/help6"},{text = '⓻', callback_data="/help7"},{text = '⓼', callback_data="/help8"}},
 {{text = '⓽', callback_data="/help9"},{text = '⓵⓪', callback_data="/help10"}},
 {{text = 'الاوامر الرئيسيه', callback_data="/help"}},
-{{text = '-??𝘈𝘝𝘌𝘕 𝘛𝘌𝘈𝘔', url="t.me/JarViFiles"}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠', url="t.me/UQXUQ"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -11937,7 +11937,7 @@ local idchci = "-100"..idch
 local animation = DAata:match("^animation(.*)$"):gsub('chatid',''):gsub('chatid',''):gsub(idch,''):gsub('-100','')
 local Text ="*✫ تم الغاء منعها بنجاح*"
 inline = {
-{{text = 'sᴏᴜʀᴄʀ ʀᴀᴠᴇɴ',url='http://t.me/JarViFiles'}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠',url='https://t.me/UQXUQ'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -11948,7 +11948,7 @@ local idchci = database:get(bot_id.."Filter:msg")
 local photo = DAata:match("^pito(.*)$")
 local Text ="*✫ تم الغاء منعها بنجاح*"
 inline = {
-{{text = 'sᴏᴜʀᴄʀ ʀᴀᴠᴇɴ',url='http://t.me/JarViFiles'}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠',url='https://t.me/UQXUQ'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -11960,7 +11960,7 @@ local idchci = "-100"..idch
 local Sticker = DAata:match("^Sticker(.*)$"):gsub('chatid',''):gsub('chatid',''):gsub(idch,''):gsub('-100','')
 local Text ="*✫ تم الغاء منعه بنجاح*"
 inline = {
-{{text = 'sᴏᴜʀᴄʀ ʀᴀᴠᴇɴ',url='http://t.me/JarViFiles'}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠',url='https://t.me/UQXUQ'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -11970,7 +11970,7 @@ if DAata and DAata:match("^delallSticker(.*)$") then
 local delallSticker = DAata:match("^delallSticker(.*)$")
 local Text ="*✫ تم الغاء منع كل المتحركات*"
 inline = {
-{{text = 'sᴏᴜʀᴄʀ ʀᴀᴠᴇɴ',url='http://t.me/JarViFiles'}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠',url='https://t.me/UQXUQ'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -11983,7 +11983,7 @@ if DAata and DAata:match("^delallanimation(.*)$") then
 local delallmation = DAata:match("^delallanimation(.*)$")
 local Text ="*✫ تم الغاء منع كل المتحركات*"
 inline = {
-{{text = 'sᴏᴜʀᴄʀ ʀᴀᴠᴇɴ',url='http://t.me/JarViFiles'}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠',url='https://t.me/UQXUQ'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -11996,7 +11996,7 @@ if DAata and DAata:match("^delallph(.*)$") then
 local delallph = DAata:match("^delallph(.*)$")
 local Text ="*✫ تم الغاء منع كل الصور*"
 inline = {
-{{text = 'sᴏᴜʀᴄʀ ʀᴀᴠᴇɴ',url='http://t.me/JarViFiles'}},
+{{text = '𝗝𝗮𝗿𝗩𝗶 : 𝗧𝗲𝗮𝗠',url='https://t.me/UQXUQ'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
