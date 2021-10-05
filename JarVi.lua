@@ -810,7 +810,7 @@ local start = database:get(bot_id.."Start:Bot")
 if start then 
 SourceJarVir = start
 else
-Namot = (database:get(bot_id..'Name:Bot') or 'ريفن')
+Namot = (database:get(bot_id..'Name:Bot') or 'جارفي')
 SourceJarVir = '*⌯⁞اهلا عزيزي*\n*⌯⁞انا بوت اسمي '..Namot..'*\n*⌯⁞اختصاصي حمايه الكروبات*\n*⌯⁞من تكرار والسبام والتوجيه والخ…*\n*⌯⁞لتفعيلي اتبع الاخطوات…↓*\n*⌯⁞اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط*\n⌯⁞[قناة سورس البوت](https://t.me/UQXUQ)'
 end
 send(msg.chat_id_, msg.id_, SourceJarVir) 
@@ -1106,12 +1106,12 @@ end
 if text == 'تحديث السورس ✫' and AliJarViW(msg) then 
 os.execute('rm -rf JarVi.lua')
 os.execute('wget https://raw.githubusercontent.com/SourceJarVi/JarVi/main/JarVi.lua')
-send(msg.chat_id_, msg.id_,' *⌯⁞تم تحديث السورس* \n*⌯⁞لديك اخر اصدار لسورس ريفن*\n*⌯⁞الاصدار » { 2.8v}*')
+send(msg.chat_id_, msg.id_,' *⌯⁞تم تحديث السورس* \n*⌯⁞لديك اخر اصدار لسورس جارفي*\n*⌯⁞الاصدار » { 2.8v}*')
 dofile('JarVi.lua')  
 end
 if text == 'الاصدار ✫' and AliJarViW(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' *⌯⁞اصدار سورس ريفن* \n*⌯⁞الاصدار »{ 2.8v}*')
+send(msg.chat_id_, msg.id_,' *⌯⁞اصدار سورس جارفي* \n*⌯⁞الاصدار »{ 2.8v}*')
 end
 if text == 'قناه تحديثات البوت ✫' and AliJarViW(msg) then 
 database:del(bot_id..'Srt:Bot') 
@@ -2412,7 +2412,7 @@ return false
 end
 os.execute('rm -rf JarVi.lua')
 os.execute('wget https://raw.githubusercontent.com/SourceJarVi/JarVi/main/JarVi.lua')
-send(msg.chat_id_, msg.id_,' *⌯⁞تم تحديث السورس* \n*⌯⁞لديك اخر اصدار لسورس ريفن*\n*⌯⁞الاصدار » { 2.8v}*')
+send(msg.chat_id_, msg.id_,' *⌯⁞تم تحديث السورس* \n*⌯⁞لديك اخر اصدار لسورس جارفي*\n*⌯⁞الاصدار » { 2.8v}*')
 dofile('JarVi.lua')  
 end
 
@@ -3986,7 +3986,7 @@ end,nil)
 end
 
 if text == 'الملفات' and AliJarViW(msg) then
-t = ' *⌯⁞ملفات السورس ريفن ↓*\n*•━━━━━━ Ja ━━━━━━━•* \n'
+t = ' *⌯⁞ملفات السورس جارفي ↓*\n*•━━━━━━ Ja ━━━━━━━•* \n'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
 if v:match(".lua$") then
@@ -4003,8 +4003,8 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n *⌯⁞اهلا بك في متجر ملفات ريفن*\n*⌯⁞ملفات السورس ↓*\n*•━━━━━━ Ja ━━━━━━━•*\n\n"
-local TextE = "\n*•━━━━━━ Ja ━━━━━━━•*\n *⌯⁞علامة تعني { ✓ } ملف مفعل*\n *⌯⁞علامة تعني { ✘ } ملف معطل*\n *⌯⁞قناة سورس ريفن ↓*\n".." *⌯⁞*[اضغط هنا لدخول](t.me/UQXUQ) \n"
+local TextS = "\n *⌯⁞اهلا بك في متجر ملفات جارفي*\n*⌯⁞ملفات السورس ↓*\n*•━━━━━━ Ja ━━━━━━━•*\n\n"
+local TextE = "\n*•━━━━━━ Ja ━━━━━━━•*\n *⌯⁞علامة تعني { ✓ } ملف مفعل*\n *⌯⁞علامة تعني { ✘ } ملف معطل*\n *⌯⁞قناة سورس جارفي ↓*\n".." *⌯⁞*[اضغط هنا لدخول](t.me/UQXUQ) \n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
 local Check_File_is_Found = io.open("File_Bot/"..name,"r")
@@ -4042,7 +4042,7 @@ os.execute("rm -fr File_Bot/"..file)
 send(msg.chat_id_, msg.id_,t) 
 dofile('JarVi.lua')  
 else
-send(msg.chat_id_, msg.id_," *⌯⁞عذرا الملف لايدعم سورس ريفن* \n") 
+send(msg.chat_id_, msg.id_," *⌯⁞عذرا الملف لايدعم سورس جارفي* \n") 
 end
 return false
 end
@@ -4064,7 +4064,7 @@ chek:close()
 send(msg.chat_id_, msg.id_,t) 
 dofile('JarVi.lua')  
 else
-send(msg.chat_id_, msg.id_," *⌯⁞عذرا الملف لايدعم سورس ريفن* \n") 
+send(msg.chat_id_, msg.id_," *⌯⁞عذرا الملف لايدعم سورس جارفي* \n") 
 end
 return false
 end
@@ -8971,8 +8971,8 @@ end
 return false
 end
 
-if text == ""..(database:get(bot_id..'Name:Bot') or 'ريفن').."" then  
-Namebot = (database:get(bot_id..'Name:Bot') or 'ريفن')
+if text == ""..(database:get(bot_id..'Name:Bot') or 'جارفي').."" then  
+Namebot = (database:get(bot_id..'Name:Bot') or 'جارفي')
 local JarVi_Msg = {
 'عمغي 🥺💕.',
 'هاا شتريد كافي ☹️.',
@@ -9801,7 +9801,7 @@ send(msg.chat_id_, msg.id_,texting[Textes])
 end
 end
 -------------------------------
-if text == ""..(database:get(bot_id..'Name:Bot') or 'ريفن').." غادر" or text == 'غادر' then  
+if text == ""..(database:get(bot_id..'Name:Bot') or 'جارفي').." غادر" or text == 'غادر' then  
 if Sudo(msg) and not database:get(bot_id..'Left:Bot'..msg.chat_id_)  then 
 tdcli_function ({ID = "ChangeChatMemberStatus",chat_id_=msg.chat_id_,user_id_=bot_id,status_={ID = "ChatMemberStatusLeft"},},function(e,g) end, nil) 
 send(msg.chat_id_, msg.id_,'*⌯⁞تم مغادرة المجموعه*') 
@@ -9810,7 +9810,7 @@ end
 return false  
 end
 if text == 'بوت' then
-Namebot = (database:get(bot_id..'Name:Bot') or 'ريفن')
+Namebot = (database:get(bot_id..'Name:Bot') or 'جارفي')
 send(msg.chat_id_, msg.id_,'*اسمي '..Namebot..'* ')
 end
 if text == 'الاحصائيات' then
@@ -12042,7 +12042,7 @@ if (text and text == "تفعيل اوامر التحشيش") then
 send(msg.chat_id_, msg.id_, '  *⌯⁞تم تفعيل اوامر التحشيش*')
 database:del(bot_id.."Fun_Bots:"..msg.chat_id_)
 end
-local Name_Bot = (database:get(bot_id..'Name:Bot') or 'ريفن')
+local Name_Bot = (database:get(bot_id..'Name:Bot') or 'جارفي')
 if not database:get(bot_id.."Fun_Bots:"..msg.chat_id_) then
 if text ==  ""..Name_Bot..' شنو رئيك بهاذا' and tonumber(msg.reply_to_message_id_) > 0 then 
 function FunBot(extra, result, success) 
